@@ -1,0 +1,97 @@
+<html>
+    <head><title>Lets Chat</title>
+
+    <link rel="stylesheet" href="Kwitter_room.css">
+    <link rel="shortcut icon" type="images/jpg" href="message.jpg" >  
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    </head>
+
+    <body>
+        
+        <h3 id="name"></h3>
+   
+        <button id="l" onclick="log_out()">Logout</button>
+    <center>
+    <h2>Lets Chat</h2>
+   
+    <hr>
+    <br>
+    <input type="text" id="room_name" placeholder="Enter Room Name">
+
+    <br>
+<br>
+<br>
+    <button onclick="addRoom()" type="button">Add Room</button>
+    </center>
+
+    </body>
+
+    <html id="rooms"></html>
+    <style>
+    #l{
+        background-color:red;
+        color:white;
+        height:40px;
+        width:5%;
+        border-radius: 20px;
+        font-size: 15px;
+        margin-left:1200px;
+        margin-top: 200px;
+
+    }
+    center{
+        background-color: white;
+        border-radius: 20px;
+        height:300px;
+        width:30%;
+        margin-left: 600px;
+    }
+    h2{
+        margin-top: 20px;
+        font-size: 50px;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+letter-spacing: -0.2px;
+word-spacing: -1.6px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: capitalize;
+    }
+    input{
+    border-radius: 20px;
+    width:60%;
+    background-color: rgb(190, 187, 187);
+    height:30px;
+    }
+    body{
+        background-image: url("images.jpg");
+                background-size:1000px;
+                background-position: center;
+    }
+
+    button{
+        color:white;
+        background-color:green;
+        width:40%;
+        border-radius: 20px;
+        height:30px;
+    }
+    </style>
+    <script src="kwitter_room.js"></script>
+
+    
+</html>
